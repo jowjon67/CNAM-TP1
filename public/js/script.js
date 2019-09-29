@@ -10,14 +10,12 @@ $("#inputConfirmPassword").change(function() {
 $( "#btn-envoyer" ).click(function() {
   mdp1=$("#inputPassword").val();
   mdp2=$("#inputConfirmPassword").val();
-  alert(mdp1 + " " + mdp2);
   if(mdp1 == mdp2)
   {
       $(".invalid-feedback").hide();
-      $( "#target" ).submit();
+      $( "#form" ).submit();
   }
   else {
     $(".invalid-feedback").show();
   }
-
 });

@@ -10,13 +10,13 @@
   </head>
   <body>
     <div class="container-fluid">
-      <?php include "vues/formulaire.php"?>
+        <?php include "controleurs/ctrl_formulaire.php"; ?>
     </div>
-
-    <!-- script -->
-      <script src="public/js/script.js" ></script>
     <!-- librairies -->
       <script src="library/jquery/jquery.js" ></script>
       <script src="library/less/less.min.js" ></script>
+    <!-- script -->
+      <script src="public/js/script.js" ></script>
+
   </body>
 </html>

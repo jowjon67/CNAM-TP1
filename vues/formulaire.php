@@ -1,7 +1,7 @@
 <div class="col-md-6 mx-auto">
   <h1>Formulaire</h1>
   <br>
-  <form>
+  <form id='form' action="vues/vue_resultat.php" method="get">
     <div class="form-row">
       <div class="form-group col-md-2">
         <label for="inputCiv">Civilité</label>
@@ -70,6 +70,6 @@
         <input type="text" class="form-control" id="inputCP" placeholder="67114" required>
       </div>
     </div>
-    <button type="submit" id="btn-envoyer" class="btn btn-primary">S'inscrire</button>
+    <button type="button" id="btn-envoyer" class="btn btn-primary">S'inscrire</button>
   </form>
 </div>
